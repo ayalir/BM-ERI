@@ -82,103 +82,104 @@ export default function EriBMHome() {
             Éri ארי
           </span>
         </div>
+        {/* Bloc modifié qui inclut Synagogue + adresse après "Qui sera célébrée" */}
         <div style={{ textAlign: "center", marginBottom: 14 }}>
           Qui sera célébrée <br />
+          <span
+            style={{
+              display: "block",
+              fontFamily: "'Great Vibes', cursive",
+              fontSize: 34,
+              color: "#2155CD",
+              fontWeight: "normal",
+              margin: "10px 0 4px 0"
+            }}
+          >
+            Synagogue Ozer Dalim
+          </span>
+          <span style={{ fontSize: 16, display: "block", marginBottom: 8 }}>
+            8 imp. Dragon<br />13006 Marseille
+          </span>
           <span style={{
-  color: "#CFA235", // Doré élégant
-  fontWeight: 700,
-  fontSize: 19
-}}>
-  Shabbat 03 Janvier 2026 / 14 Tevet 5786 à 8h30
-</span>
-
+            color: "#CFA235",
+            fontWeight: 700,
+            fontSize: 19,
+            display: "block",
+            margin: "10px 0"
+          }}>
+            Shabbat 03 Janvier 2026 / 14 Tevet 5786 à 8h30
+          </span>
           <br />
           Lecture de la Paracha Vaye’hi ויחי<br />
           <small>L’Office sera suivi d’un apéritif</small>
         </div>
+        {/* Mise des Téfilines */}
         <div style={{ textAlign: "center", marginBottom: 14 }}>
-  <span
-    style={{
-      display: "block",
-      fontFamily: "'Great Vibes', cursive",
-      fontSize: 38,
-      color: "#2155CD", // ou #fff si sur fond bleu
-      fontWeight: "normal",
-      marginBottom: 4
-    }}
-  >
-    Mise des Téfilines
-  </span>
-  Dimanche 04 Janvier / 15 Tevet 5786 à 9h00<br />
-  Un petit déjeuner suivra l’Office
-</div>
-
-        <div style={{ textAlign: "center", marginBottom: 14 }}>
-  <span
-    style={{
-      display: "block",
-      fontFamily: "'Great Vibes', cursive",
-      fontSize: 34,
-      color: "#2155CD", // même couleur que Mise des Téfilines
-      fontWeight: "normal",
-      marginBottom: 4
-    }}
-  >
-    Synagogue Ozer Dalim
-  </span>
-  8 imp. Dragon<br />13006 Marseille
-</div>
-
+          <span
+            style={{
+              display: "block",
+              fontFamily: "'Great Vibes', cursive",
+              fontSize: 38,
+              color: "#2155CD", // ou #fff si sur fond bleu
+              fontWeight: "normal",
+              marginBottom: 4
+            }}
+          >
+            Mise des Téfilines
+          </span>
+          Dimanche 04 Janvier / 15 Tevet 5786 à 9h00<br />
+          Un petit déjeuner suivra l’Office
+        </div>
+        {/* Bloc salle / fête */}
         <div
-  style={{
-    textAlign: "center",
-    margin: "28px 0 24px 0",
-    padding: "18px 10px",
-    background: "rgba(33,85,205,0.04)", // Optionnel : fond bleu pâle pour aérer
-    borderRadius: 12
-  }}
->
-  <span
-    style={{
-      fontFamily: "'Quicksand', 'Arial', sans-serif",
-      fontStyle: "italic",
-      fontWeight: 500,
-      fontSize: 19,
-      color: "#2155CD",
-      marginBottom: 6,
-      display: "block"
-    }}
-  >
-    Éri vous invite à faire la fête
-  </span>
-  <span
-    style={{
-      fontFamily: "'Quicksand', 'Arial', sans-serif",
-      fontWeight: 600,
-      fontSize: 17,
-      color: "#CFA235",  // doré élégant
-      marginBottom: 4,
-      display: "block"
-    }}
-  >
-    Le Dimanche 04 Janvier 2026 à partir de 19h00
-  </span>
-  <span
-    style={{
-      fontSize: 16,
-      color: "#222",
-      fontWeight: 500,
-      display: "block"
-    }}
-  >
-    Salle Time Square
-    <br />
-    22 Rue Negresko
-    <br />
-    13008 Marseille
-  </span>
-</div>
-
+          style={{
+            textAlign: "center",
+            margin: "28px 0 24px 0",
+            padding: "18px 10px",
+            background: "rgba(33,85,205,0.04)", // Optionnel : fond bleu pâle pour aérer
+            borderRadius: 12
+          }}
+        >
+          <span
+            style={{
+              fontFamily: "'Quicksand', 'Arial', sans-serif",
+              fontStyle: "italic",
+              fontWeight: 500,
+              fontSize: 19,
+              color: "#2155CD",
+              marginBottom: 6,
+              display: "block"
+            }}
+          >
+            Éri vous invite à faire la fête
+          </span>
+          <span
+            style={{
+              fontFamily: "'Quicksand', 'Arial', sans-serif",
+              fontWeight: 600,
+              fontSize: 17,
+              color: "#CFA235",  // doré élégant
+              marginBottom: 4,
+              display: "block"
+            }}
+          >
+            Le Dimanche 04 Janvier 2026 à partir de 19h00
+          </span>
+          <span
+            style={{
+              fontSize: 16,
+              color: "#222",
+              fontWeight: 500,
+              display: "block"
+            }}
+          >
+            Salle Time Square
+            <br />
+            22 Rue Negresko
+            <br />
+            13008 Marseille
+          </span>
+        </div>
         {/* RSVP bouton Google Form */}
         <div style={{ textAlign: "center", margin: "28px 0 0 0" }}>
           <h3 style={{ marginBottom: 10 }}>Réponse souhaitée dès réception</h3>
