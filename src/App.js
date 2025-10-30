@@ -64,10 +64,10 @@ export default function EriBMHome() {
         borderRadius: 18,
         boxShadow: "0 2px 28px rgba(0,0,0,0.03)"
       }}>
-       <div style={{ fontSize: 18, fontWeight: 600, textAlign: "center", marginBottom: 8 }}>
-            <span>Mme Mr. Sophie &amp; Laurent Ainouze</span>
-            <div style={{ marginTop: 2 }}>Ayal &amp; Lirone</div>
-       </div>
+        <div style={{ fontSize: 18, fontWeight: 600, textAlign: "center", marginBottom: 8 }}>
+          <span>Mme Mr. Sophie &amp; Laurent Ainouze</span>
+          <div style={{ marginTop: 2 }}>Ayal &amp; Lirone</div>
+        </div>
         <div style={{ fontSize: 16, textAlign: "center", marginBottom: 18 }}>
           ont la joie de vous faire part de la Bar-Mitsva de <br /><br />
           <span style={{
@@ -128,19 +128,22 @@ export default function EriBMHome() {
           Dimanche 04 Janvier / 15 Tevet 5786 à 9h00<br />
           Un petit déjeuner suivra l’Office
         </div>
-        {/* Bloc salle / fête */}
+        {/* Bloc salle / fête AVEC EFFET LIGHT */}
         <div
           style={{
             textAlign: "center",
             margin: "28px 0 24px 0",
             padding: "18px 10px",
-            background: "rgba(33,85,205,0.04)", // Optionnel : fond bleu pâle pour aérer
-            borderRadius: 12
+            background: "rgba(255,255,255,0.94)",
+            borderRadius: 16,
+            border: "2px solid #fff",
+            boxShadow: "0 0 32px 8px #CFA23566, 0 2px 12px #2155CD22",
+            transition: "box-shadow 0.3s"
           }}
         >
           <span
             style={{
-              fontFamily: "'Quicksand', 'Arial', sans-serif",
+              fontFamily: "'Great Vibes', cursive",
               fontStyle: "italic",
               fontWeight: 500,
               fontSize: 19,
@@ -156,7 +159,7 @@ export default function EriBMHome() {
               fontFamily: "'Quicksand', 'Arial', sans-serif",
               fontWeight: 600,
               fontSize: 17,
-              color: "#CFA235",  // doré élégant
+              color: "#CFA235",
               marginBottom: 4,
               display: "block"
             }}
@@ -171,11 +174,7 @@ export default function EriBMHome() {
               display: "block"
             }}
           >
-            Salle Time Square
-            <br />
-            22 Rue Negresko
-            <br />
-            13008 Marseille
+            Salle Time Square<br />22 Rue Negresko<br />13008 Marseille
           </span>
         </div>
         {/* RSVP bouton Google Form */}
