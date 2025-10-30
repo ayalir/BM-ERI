@@ -161,7 +161,7 @@ export default function EriBMHome() {
               display: "block"
             }}
           >
-            Le Dimanche 04 Janvier 2026 à partir de 19h00
+            Dimanche 04 Janvier 2026 à partir de 19h00
           </span>
           <span
             style={{
