@@ -64,12 +64,10 @@ export default function EriBMHome() {
         borderRadius: 18,
         boxShadow: "0 2px 28px rgba(0,0,0,0.03)"
       }}>
-        <div style={{ fontSize: 18, fontWeight: 600, textAlign: "center", marginBottom: 8 }}>
-          <span>Mme Ainouze Sophie</span>
-          <span style={{ margin: "0 10px" }}>&amp;</span>
-          <span>Mr Ainouze Laurent</span>
-          <div>Ayal &amp; Lirone</div>
-        </div>
+       <div style={{ fontSize: 18, fontWeight: 600, textAlign: "center", marginBottom: 8 }}>
+            <span>Mme Mr. Sophie &amp; Laurent Ainouze</span>
+            <div style={{ marginTop: 2 }}>Ayal &amp; Lirone</div>
+       </div>
         <div style={{ fontSize: 16, textAlign: "center", marginBottom: 18 }}>
           ont la joie de vous faire part de la Bar-Mitsva de <br /><br />
           <span style={{
