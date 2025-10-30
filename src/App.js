@@ -94,7 +94,7 @@ export default function EriBMHome() {
 
           <br />
           Lecture de la Paracha Vaye’hi ויחי<br />
-          <small>L’Office sera suivi d’un apéritif dinatoire</small>
+          <small>L’Office sera suivi d’un apéritif</small>
         </div>
         <div style={{ textAlign: "center", marginBottom: 14 }}>
   <span
