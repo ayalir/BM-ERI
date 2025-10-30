@@ -145,8 +145,8 @@ export default function EriBMHome() {
             style={{
               fontFamily: "'Great Vibes', cursive",
               fontStyle: "italic",
-              fontWeight: 500,
-              fontSize: 19,
+              fontWeight: 700,
+              fontSize: 28,
               color: "#2155CD",
               marginBottom: 6,
               display: "block"
