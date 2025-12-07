@@ -71,6 +71,7 @@ export default function EriBMHome() {
           marginBottom: 8,
           color: "#2155CD" // couleur bleu royal assortie
      }}>
+       <span>Mme Mr. Nicole &amp; William Zerbib</span>
        <span>Mme Mr. Sophie &amp; Laurent Ainouze</span>
        <div style={{ marginTop: 2 }}>Ayal &amp; Lirone</div>
         </div>
